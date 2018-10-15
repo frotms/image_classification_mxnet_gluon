@@ -129,3 +129,4 @@ spring crocus: 1.3393154857724299e-10%
 3.[https://github.com/chinakook/Awesome-MXNet](https://github.com/chinakook/Awesome-MXNet)  
 4.[https://github.com/awslabs/mxboard](https://github.com/awslabs/mxboard)  
 5.[http://www.robots.ox.ac.uk/~vgg/data/flowers/102](http://www.robots.ox.ac.uk/~vgg/data/flowers/102)    
+6.[https://github.com/victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)   
