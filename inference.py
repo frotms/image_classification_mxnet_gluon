@@ -45,8 +45,9 @@ class TagMxnetInference(object):
         input = mx.nd.array(_image_data).as_in_context(self.ctx)
         logit = self.net(input)
         # softmax
-        # I cannot find softmax-function in mxnet-API
-        return self.softmax(logit.asnumpy())
+        pred = mx.ndarray.softmax(logit, axis=1)
+        return pred.asnumpy()
+        # return self.softmax(logit.asnumpy())
 
 
     def image_preproces(self, image_data):
