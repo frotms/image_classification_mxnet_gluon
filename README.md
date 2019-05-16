@@ -33,7 +33,11 @@ Python3 support only. Tested on CUDA9.0, cudnn7.
 | ...                     | ...       |
 
 ### pre-trained model
-you can download pretrain model with url in ($net-module.py)
+you can download pretrain model with url in ($net-module.py)  
+And the accuracy of ImageNet pre-trained models is illustrated in the following URLs:  
+
+- [incubator-mxnet model zoo](http://mxnet.incubator.apache.org/api/python/gluon/model_zoo.html)  
+- [classification of Gluoncv model zoo](https://gluon-cv.mxnet.io/model_zoo/classification.html)  
 
 #### From [mxnet-gluon-vision](https://github.com/apache/incubator-mxnet/tree/master/python/mxnet/gluon/model_zoo/vision/) package:
 
